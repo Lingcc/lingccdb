@@ -7,8 +7,10 @@ Mini Demo
 This directory is used for function test for little Demo as following:
 
  1. How CMake work
- 2. How RPC works 
- 3. How to write a server deamon
+ 1. How RPC works 
+ 1. How to write a server deamon
+ 1. B-Tree Index implementation
+ 1. Skip-List quickly in-memory code implementation
 
 
 Framework
