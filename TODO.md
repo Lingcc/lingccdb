@@ -5,9 +5,10 @@ Here is a list of TODO for LingccDB. And will be updated according to the develo
 Mini Demo
 ==========
 This directory is used for function test for little Demo as following:
-1. How CMake work
-2. How RPC works 
-3. How to write a server deamon
+
+ 1. How CMake work
+ 2. How RPC works 
+ 3. How to write a server deamon
 
 
 Framework
