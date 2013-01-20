@@ -1,0 +1,3 @@
+ADD_SUBDIRECTORY( hello )
+ADD_SUBDIRECTORY( test )
+ADD_SUBDIRECTORY( TinyWebServer )

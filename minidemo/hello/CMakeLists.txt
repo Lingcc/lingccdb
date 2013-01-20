@@ -1,0 +1,4 @@
+# CMakeLists.txt in Hello dir
+# Adds a library called Hello (libHello.a under Linux) from the source
+# file hello.cc
+ADD_LIBRARY( Hello hello)
