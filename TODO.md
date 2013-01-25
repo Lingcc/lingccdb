@@ -10,6 +10,10 @@ This directory is used for function test for little Demo as following:
  1. How to write a server deamon
  1. B-Tree Index implementation
  1. Skip-List quickly in-memory code implementation
+ 1. How to create thread in C++ for buffer flush  in the following three ways:
+    1. daemons for periodically  weekup and flush
+    1. daemons for buffer full event weekup flush
+    1. thread that start buffer flush work immediately, and destroied after the work done.
 
 
 # Framework
