@@ -1,6 +1,6 @@
 # CMakeLists.txt in Test dir
 # Make sure the compiler can find include files from our Hello Library.
-INCLUDE_DIRECTORIES( ${HelloDB_SOURCE_DIR}/minidemo/hello )
+INCLUDE_DIRECTORIES( ${LingccDB_SOURCE_DIR}/minidemo/hello )
 
 # Add binary called "helloWorld" that is build from the source file 'test.cc'
 # The extension is automatically found.
