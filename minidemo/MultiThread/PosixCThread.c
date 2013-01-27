@@ -3,8 +3,15 @@
 
 /** Practice: POSIX interface for multithread in C language
  *
+ * The POSIX multithread interface includes
+ *          | Basic Management  | Barriers  | Mutexes | Semaphore
+ * Creation | pthread_create    | pthread_barrier_init  | pthread_mutex_init  | sem_init
+ * Destroy  | pthread_exit      | pthread_barrier_destroy | pthread_mutex_destroy | sem_destroy
+ * Waiting  | pthread_join  | pthread_barrier_wait  | - | -
+ * Accquisition | - | - | pthread_mutex_lock  |  sem_wait
+ * Release  | - | - | pthread_mutex_unlock  | sem_post
  *
- *
+ * ************************************************************************
  */
 
 void* do_loop(void* data) {
