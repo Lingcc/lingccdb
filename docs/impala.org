@@ -4,7 +4,10 @@
 
 
 
-* Impala Build and Install
+
+* Impala Build on Debian Wheezy(7.0)
+
+
 
   - [[https://github.com/cloudera/impala/blob/master/README.md][Official Impala Installation Guide]]
 
@@ -59,4 +62,17 @@ struct addrinfo
    DONE!
 
 
-** 
+** bzlib.h: no such file or directory
+   
+#+BEGIN_QUOTE
+  sudo apt-get install libbz2-dev 
+#+END_QUOTE
+
+   After install libbz2-dev, the problem is solved.
+
+Done!
+
+
+
+*  Impala Runing on Debian Wheezy(7.0)
+   
