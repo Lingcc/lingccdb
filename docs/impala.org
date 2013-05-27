@@ -52,4 +52,11 @@ struct addrinfo
    - libevent-extra
    - libevent-dev
 
-   Use =dpkg -i= to install them, and
+   Use =dpkg -i= to install them. 
+   *Do not install the Debian default libevent-dev, it is v2.0, and does not support by thrift*
+
+
+   DONE!
+
+
+** 
